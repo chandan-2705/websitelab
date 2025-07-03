@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bihar Vegetation & Drought Monitor</title>
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #f4f9f4; margin: 0; padding: 0; }
+    header { background-color: #2e7d32; color: white; padding: 1rem; text-align: center; }
+    section { padding: 2rem; }
+    h1, h2 { color: #2e7d32; }
+    .map-container { height: 500px; margin-top: 1rem; background-color: #ddd; text-align: center; line-height: 500px; color: #666; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bihar Vegetation & Drought Monitoring</h1>
+    <p>Powered by VPD, SM, and SIF data</p>
+  </header>
+
+  <section>
+    <h2>Overview</h2>
+    <p>This site provides vegetation health and drought insights for Bihar using advanced environmental indicators like Vapor Pressure Deficit (VPD), Soil Moisture (SM), and Solar-Induced Fluorescence (SIF).</p>
+  </section>
+
+  <section>
+    <h2>Interactive Map</h2>
+    <div class="map-container">🗺️ Map will appear here (Leaflet or other library)</div>
+  </section>
+
+  <section>
+    <h2>Data Visualizations</h2>
+    <p>Coming soon: trend charts, anomaly detection, district-level breakdown.</p>
+  </section>
+
+  <section>
+    <h2>Methodology</h2>
+    <p>Explanation of how VPD, SM, and SIF data are collected, processed, and interpreted to assess vegetation health and drought risk.</p>
+  </section>
+
+  <footer style="background-color: #e0e0e0; text-align: center; padding: 1rem;">
+    &copy; 2025 Chandan's Environmental Dashboard
+  </footer>
+</body>
+</html>
